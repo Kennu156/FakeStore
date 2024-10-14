@@ -1,14 +1,14 @@
 import { createMemoryHistory, createRouter } from 'vue-router'
 
-import App from './App.vue'
-import SingleProduct from './SingleProduct.vue'
+import ProductList from './views/ProductList.vue'
+import SingleProduct from './views/SingleProduct.vue'
 
 const routes = [
   { 
     path: 
     '/',
     name: 'home', 
-    component: App 
+    component: ProductList 
 },
   { path: 
     '/products/:id', 
